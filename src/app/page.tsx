@@ -60,7 +60,7 @@ export default function LandingPage() {
       }}
       title="Professional Housekeeping & Deep Cleaning"
       description="SV Enterprise brings excellence in hygiene and cleanliness. From deep scrubbing to daily maintenance, we ensure your home and office shine."
-      imageSrc="http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg?_wi=1"
       imageAlt="Professional cleaning service team"
     />
   </div>
@@ -100,7 +100,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg?_wi=2",
           imageAlt: "deep cleaning kitchen hygiene",
         },
         {
@@ -150,7 +150,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg?_wi=1",
           imageAlt: "deep cleaning kitchen hygiene",
         },
       ]}
@@ -200,7 +200,7 @@ export default function LandingPage() {
           role: "Homeowner",
           company: "Resident",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg?_wi=2",
         },
         {
           id: "t2",
