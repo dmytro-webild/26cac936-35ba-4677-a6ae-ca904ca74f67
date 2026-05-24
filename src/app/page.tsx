@@ -33,21 +33,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="SV Enterprise"
     />
@@ -56,11 +48,10 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Professional Housekeeping & Deep Cleaning"
       description="SV Enterprise brings excellence in hygiene and cleanliness. From deep scrubbing to daily maintenance, we ensure your home and office shine."
-      imageSrc="http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg"
       imageAlt="Professional cleaning service team"
     />
   </div>
@@ -79,79 +70,52 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Kitchen Deep Cleaning",
-          description: "Complete sanitization and grease removal for a healthier kitchen.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/service-person-cleaning-kitchen-appliances_259150-59446.jpg",
-            imageAlt: "Kitchen cleaning",
-          },
+          title: "Kitchen Deep Cleaning",          description: "Complete sanitization and grease removal for a healthier kitchen.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/service-person-cleaning-kitchen-appliances_259150-59446.jpg",            imageAlt: "Kitchen cleaning"},
           items: [
             {
               icon: Sparkles,
-              text: "Appliance cleaning",
-            },
+              text: "Appliance cleaning"},
             {
               icon: CheckCircle,
-              text: "Grease removal",
-            },
+              text: "Grease removal"},
             {
               icon: Shield,
-              text: "Sanitization",
-            },
+              text: "Sanitization"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-female-cleaning_23-2148480385.jpg?_wi=2",
-          imageAlt: "deep cleaning kitchen hygiene",
         },
         {
-          title: "Bathroom Sanitization",
-          description: "Deep scrubbing and disinfection to ensure hygiene.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/kitchen-cleaning-with-steam-cleaner-care-cleanliness-biologically-clean-treatment-removing-dirt-care-health-cleanliness-kitchen-living-spaces_166373-8837.jpg",
-            imageAlt: "Bathroom cleaning",
-          },
+          title: "Bathroom Sanitization",          description: "Deep scrubbing and disinfection to ensure hygiene.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/kitchen-cleaning-with-steam-cleaner-care-cleanliness-biologically-clean-treatment-removing-dirt-care-health-cleanliness-kitchen-living-spaces_166373-8837.jpg",            imageAlt: "Bathroom cleaning"},
           items: [
             {
               icon: Sparkles,
-              text: "Tile scrubbing",
-            },
+              text: "Tile scrubbing"},
             {
               icon: CheckCircle,
-              text: "Fixture polishing",
-            },
+              text: "Fixture polishing"},
             {
               icon: Shield,
-              text: "Disinfection",
-            },
+              text: "Disinfection"},
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-cleaning-office_23-2150454494.jpg",
-          imageAlt: "deep cleaning kitchen hygiene",
         },
         {
-          title: "Living Space Maintenance",
-          description: "Dusting, vacuuming, and general care for your living areas.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/happy-smiling-man-cleaning-carpet_1163-2435.jpg",
-            imageAlt: "Living room cleaning",
-          },
+          title: "Living Space Maintenance",          description: "Dusting, vacuuming, and general care for your living areas.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/happy-smiling-man-cleaning-carpet_1163-2435.jpg",            imageAlt: "Living room cleaning"},
           items: [
             {
               icon: Sparkles,
-              text: "Deep vacuuming",
-            },
+              text: "Deep vacuuming"},
             {
               icon: CheckCircle,
-              text: "Surface dusting",
-            },
+              text: "Surface dusting"},
             {
               icon: Shield,
-              text: "Organizing",
-            },
+              text: "Organizing"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg?_wi=1",
-          imageAlt: "deep cleaning kitchen hygiene",
         },
       ]}
       title="Our Specialized Services"
@@ -167,20 +131,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "1500+",
-          description: "Happy Clients",
-        },
+          id: "m1",          value: "1500+",          description: "Happy Clients"},
         {
-          id: "m2",
-          value: "5000+",
-          description: "Rooms Cleaned",
-        },
+          id: "m2",          value: "5000+",          description: "Rooms Cleaned"},
         {
-          id: "m3",
-          value: "100%",
-          description: "Customer Satisfaction",
-        },
+          id: "m3",          value: "100%",          description: "Customer Satisfaction"},
       ]}
       title="Our Impact"
       description="Quality service tracked by results."
@@ -195,45 +150,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Rahul Verma",
-          role: "Homeowner",
-          company: "Resident",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg?_wi=2",
-        },
+          id: "t1",          name: "Rahul Verma",          role: "Homeowner",          company: "Resident",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-inviting-man-house-with-tools_259150-58291.jpg"},
         {
-          id: "t2",
-          name: "Anjali Sharma",
-          role: "Business Owner",
-          company: "Office",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-using-cleaning-mop-as-microphone_482257-69.jpg",
-        },
+          id: "t2",          name: "Anjali Sharma",          role: "Business Owner",          company: "Office",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-using-cleaning-mop-as-microphone_482257-69.jpg"},
         {
-          id: "t3",
-          name: "Amit Gupta",
-          role: "Homeowner",
-          company: "Resident",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/couple-indoors-fooling-around_23-2148593251.jpg",
-        },
+          id: "t3",          name: "Amit Gupta",          role: "Homeowner",          company: "Resident",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/couple-indoors-fooling-around_23-2148593251.jpg"},
         {
-          id: "t4",
-          name: "Priya Singh",
-          role: "Homeowner",
-          company: "Resident",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cleaning-kitchen-smiling-young-housewife-holding-difinfecting-spray-hands_259150-59481.jpg",
-        },
+          id: "t4",          name: "Priya Singh",          role: "Homeowner",          company: "Resident",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/cleaning-kitchen-smiling-young-housewife-holding-difinfecting-spray-hands_259150-59481.jpg"},
         {
-          id: "t5",
-          name: "Vikram Seth",
-          role: "Office Manager",
-          company: "Corporate",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/people-having-casual-salsa-dance-themed-get-together_23-2151356594.jpg",
-        },
+          id: "t5",          name: "Vikram Seth",          role: "Office Manager",          company: "Corporate",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/people-having-casual-salsa-dance-themed-get-together_23-2151356594.jpg"},
       ]}
       title="Client Feedback"
       description="Don't just take our word for it."
@@ -245,14 +175,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Alpha Corp",
-        "Beta Solutions",
-        "Gamma Enterprises",
-        "Delta Services",
-        "Epsilon Group",
-        "Zeta Cleaning",
-        "Theta Partners",
-      ]}
+        "Alpha Corp",        "Beta Solutions",        "Gamma Enterprises",        "Delta Services",        "Epsilon Group",        "Zeta Cleaning",        "Theta Partners"]}
       title="Trusted Partners"
       description="We work with top-tier partners across sectors."
     />
@@ -264,20 +187,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Do you offer eco-friendly cleaning?",
-          content: "Yes, we use environment-friendly products upon request.",
-        },
+          id: "q1",          title: "Do you offer eco-friendly cleaning?",          content: "Yes, we use environment-friendly products upon request."},
         {
-          id: "q2",
-          title: "What areas do you serve?",
-          content: "We cover all major locations in the city.",
-        },
+          id: "q2",          title: "What areas do you serve?",          content: "We cover all major locations in the city."},
         {
-          id: "q3",
-          title: "Can I book a one-time clean?",
-          content: "Absolutely, we provide one-time and subscription services.",
-        },
+          id: "q3",          title: "Can I book a one-time clean?",          content: "Absolutely, we provide one-time and subscription services."},
       ]}
       title="Common Questions"
       description="Get quick answers about our services."
@@ -289,16 +203,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Contact Us"
       title="Ready to sparkle?"
       description="Get in touch today for a free estimate on your space."
       buttons={[
         {
-          text: "Contact Now",
-          href: "mailto:hello@sventerprise.com",
-        },
+          text: "Contact Now",          href: "mailto:hello@sventerprise.com"},
       ]}
     />
   </div>
@@ -308,29 +219,19 @@ export default function LandingPage() {
       logoText="SV Enterprise"
       columns={[
         {
-          title: "Services",
-          items: [
+          title: "Services",          items: [
             {
-              label: "Deep Cleaning",
-              href: "#",
-            },
+              label: "Deep Cleaning",              href: "#"},
             {
-              label: "Housekeeping",
-              href: "#",
-            },
+              label: "Housekeeping",              href: "#"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#",
-            },
+              label: "About Us",              href: "#"},
             {
-              label: "Contact",
-              href: "#",
-            },
+              label: "Contact",              href: "#"},
           ],
         },
       ]}
